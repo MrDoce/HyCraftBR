@@ -30,8 +30,8 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-background">
-            <!-- Imagem de fundo do Hytale Media -->
-            <img src="https://cdn.hytale.com/5e7b9e9b50cbcd001176c5ad_1___zone_1_shadows.jpg" alt="HyCraft BR Background" class="hero-bg-image">
+            <!-- Imagem de fundo -->
+            <img src="https://i.pinimg.com/1200x/34/a3/51/34a35193aa7a8a9fd085258159d3d71d.jpg" alt="HyCraft BR Background" class="hero-bg-image">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
@@ -51,11 +51,57 @@
         <div class="section-bg-image" style="background-image: url('https://cdn.hytale.com/5e7a961e5e334000189a2a7a_1__1_.jpg')"></div>
         <div class="container">
             <h2 class="section-title">Servidor</h2>
+            
+            <!-- Cards de Informações -->
+            <div class="server-stats-grid">
+                <div class="server-stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-label">Status</span>
+                        <span class="stat-value online">Online</span>
+                    </div>
+                </div>
+                
+                <div class="server-stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-label">Modo</span>
+                        <span class="stat-value">PVE / Survival</span>
+                    </div>
+                </div>
+                
+                <div class="server-stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-label">Versão</span>
+                        <span class="stat-value">Hytale Release</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card Principal do IP -->
             <div class="server-card-large">
                 <div class="server-info-large">
-                    <div class="server-icon">🎮</div>
                     <div class="server-details">
-                        <h3>IP do Servidor</h3>
+                        <h3>Conectar ao Servidor</h3>
+                        <p class="server-description">Junte-se à nossa comunidade e explore mundos épicos no HyCraft BR</p>
                         <div class="server-ip-container">
                             <span class="server-ip-large" id="serverIp">sp-11.raze.host:25642</span>
                             <button class="copy-btn-large" onclick="copyServerIp()" title="Copiar IP">
